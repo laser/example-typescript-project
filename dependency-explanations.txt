@@ -1,0 +1,11 @@
+@typescript-eslint/eslint-plugin - applies TypeScript-specific linting rules
+@typescript-eslint/parser - parses your TypeScript code so that ESLint can analyze it
+eslint - static code analysis (formatting, linting) for TypeScript
+eslint-config-prettier - disables eslint rules that conflict with prettier
+eslint-plugin-perfectionist - adds the "perfectionist" set of formatting rules to eslint
+eslint-plugin-prettier - runs the prettier plugin as an eslint rule
+prettier - code formatter
+prettier-plugin-organize-imports - prettier plugin for organizing imports automatically
+ts-node - TypeScript execution engine and JIT compiler for Node.js
+typescript - self-explanatory
+winston - logging library

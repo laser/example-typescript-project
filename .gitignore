@@ -87,7 +87,7 @@ web_modules/
 .next
 out
 
-# Nuxt.js build / generate output
+# Next.js build / generate output
 .nuxt
 dist
 
@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# project-specific stuff
+.env
+
+# IDE artifacts
+.idea
