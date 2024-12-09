@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "noErrorTruncation": true,
+    "experimentalDecorators": true,
+    "allowJs": true,
+    "target": "es2022",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist",
+    "paths": {
+      "~/*": ["./src/*"]
+    },
+    "typeRoots": ["node_modules/@types", "./typedefs"],
+    "lib": ["dom", "es2022", "esnext.disposable"]
+  },
+  "include": [
+    "./eslint.config.mjs",
+    "scripts",
+    "src",
+    "test",
+    "bin",
+    "typedefs/**/*.ts"
+  ],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  }
+}
